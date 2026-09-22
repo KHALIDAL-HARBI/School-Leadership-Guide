@@ -572,6 +572,8 @@ const alJumumFourthPrimary=schools.find(s=>s['الرقم الوزاري']==='277
 if(alJumumFourthPrimary){alJumumFourthPrimary['اسم المدرسة']='ابتدائية الجموم الرابعة';alJumumFourthPrimary['اسم مدير المدرسة']='شادية حياد لازم العتيبي';alJumumFourthPrimary['جوال مدير المدرسة']='966500562047';}
 const imamAlSuyutiMiddle=schools.find(s=>s['الرقم الوزاري']==='26369');
 if(imamAlSuyutiMiddle){imamAlSuyutiMiddle['اسم مدير المدرسة']='فيصل بكر صالح باحكيم';imamAlSuyutiMiddle['جوال مدير المدرسة']='966558582000';imamAlSuyutiMiddle['وقت الدراسة']='تعليم مدمج';}
+const alLaythBinSaadMiddle=schools.find(s=>s['الرقم الوزاري']==='26382');
+if(alLaythBinSaadMiddle){alLaythBinSaadMiddle['اسم مدير المدرسة']='عبدالرحمن بن محمد بن عبدالرحمن بيمه';alLaythBinSaadMiddle['جوال مدير المدرسة']='966500005841';}
 const q=document.getElementById('q'), stage=document.getElementById('stage'), gender=document.getElementById('gender'), county=document.getElementById('county'), schoolType=document.getElementById('schoolType');
 const grid=document.getElementById('grid'), count=document.getElementById('count'), searchBtn=document.getElementById('searchBtn');
 const norm=s=>String(s??'').normalize('NFKD').replace(/[\u0653\u0654\u0655]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/[ًٌٍَُِّْـ]/g,'').replace(/\s+/g,' ').trim().toLowerCase();
